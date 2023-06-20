@@ -33,8 +33,23 @@ public class Main {
 
         rainha.comer();
 
+        // gerador de número
+        int numero = (int) Math.ceil(Math.random() * 60);
+        System.out.println(numero);
+
+        Produto petisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto(2, "Vermifugo");
+        Produto brinquedo = new Produto("Bolinha");
+
+        // petisco.nome = "biscoito";
+        petisco.setNome("biscoito");
+
 
 
 
     }
 }
+
+
+
